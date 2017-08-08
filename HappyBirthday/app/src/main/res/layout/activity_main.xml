@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src ="@drawable/andoird_party"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView android:text="Happy Birthday Matthew!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_light"
+        android:fontFamily="casual"
+        android:padding="20dp"
+        />
+    <TextView android:text="From your brother, Jeffrey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:fontFamily="casual"
+        android:gravity="end"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_light"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="5dp"
+        />
+
+</RelativeLayout>
